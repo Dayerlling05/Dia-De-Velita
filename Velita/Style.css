@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box; 
+
+}
+body { /* ajutar fondo en cualquier pantalla*/
+    background: url("fondo.webp");
+    color: #fdfdfd;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 75vh;
+    
+}
+
+.Contenedor{
+    height: auto;
+    width: 22em;
+    padding:3%;
+   border-radius: 10px;
+   backdrop-filter: blur(18px);
+   box-shadow: 0 0 3px 3px rgb(142, 202, 46);
+}
+
+.imagen{
+text-align: center;
+}
+
+.imagen img{
+    width: 30%;
+    height: 20%;
+}
+
+label{
+    line-height: 2.5em;
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px white solid;
+    width: 100%;
+}
+.links{
+    padding: 0.5em 0 1em 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.button{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+    padding: 1em 0 1.5em 0;  
+}
+button{
+    background: rgba(114, 16, 16, 0.705);
+    color: white;
+    border-radius: 10px;
+    border: 1px white solid;
+    height: 2.8em;
+    width: 100%;
+}
